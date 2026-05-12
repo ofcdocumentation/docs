@@ -14,78 +14,77 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "getting-started/profile-setup",
+              "getting-started/interacting-with-projects",
+              "getting-started/interacting-with-groups",
+              "getting-started/connections"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Organizational Profiles",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "organizational-profiles/profile-setup",
+              "organizational-profiles/roles-and-permissions",
+              "organizational-profiles/architecture-strategy"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Platform Fundamentals",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/components",
-              "essentials/reusable-snippets"
+              "platform-fundamentals/navigating-the-platform",
+              "platform-fundamentals/privacy-and-visibility",
+              "platform-fundamentals/file-management"
             ]
           },
           {
-            "group": "Agent ready",
+            "group": "Impact Dashboards",
             "pages": [
-              "agent-ready/prompt",
-              "agent-ready/visibility",
-              "agent-ready/contextual",
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "platform-areas/impact-dashboards/about",
+              "platform-areas/impact-dashboards/quick-start",
+              "platform-areas/impact-dashboards/component-1",
+              "platform-areas/impact-dashboards/component-2",
+              "platform-areas/impact-dashboards/component-3",
+              "platform-areas/impact-dashboards/faq"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Projects",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "platform-areas/projects/about",
+              "platform-areas/projects/quick-start",
+              "platform-areas/projects/component-1",
+              "platform-areas/projects/component-2",
+              "platform-areas/projects/component-3",
+              "platform-areas/projects/faq"
+            ]
+          },
+          {
+            "group": "Resource Publishing",
+            "pages": [
+              "platform-areas/resource-publishing/about",
+              "platform-areas/resource-publishing/quick-start",
+              "platform-areas/resource-publishing/component-1",
+              "platform-areas/resource-publishing/component-2",
+              "platform-areas/resource-publishing/component-3",
+              "platform-areas/resource-publishing/faq"
+            ]
+          },
+          {
+            "group": "Groups",
+            "pages": [
+              "platform-areas/groups/about",
+              "platform-areas/groups/quick-start",
+              "platform-areas/groups/component-1",
+              "platform-areas/groups/component-2",
+              "platform-areas/groups/component-3",
+              "platform-areas/groups/faq"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",

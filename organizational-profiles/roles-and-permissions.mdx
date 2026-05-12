@@ -1,0 +1,79 @@
+---
+title: "Roles & Permissions"
+description: "Manage who can access and do what within your organization"
+icon: "shield"
+---
+
+Roles and permissions determine what members of your organization can see and do on the platform. Proper role management keeps your organization secure while enabling effective collaboration.
+
+## Organization Roles
+
+Every member of your organization is assigned a role. Here’s an overview of the default roles:
+
+| Role | Description |
+| --- | --- |
+| **Owner** | Full access to all settings, content, and member management. Can transfer ownership. |
+| **Admin** | Can manage members, settings, projects, and content. Cannot transfer ownership. |
+| **Editor** | Can create and edit content, publish resources, and manage projects. |
+| **Contributor** | Can create content and contribute to projects but cannot publish without approval. |
+| **Viewer** | Read-only access to organizational content. |
+
+## Managing Roles
+
+### Adding Members
+
+1. Navigate to **Your Organization → Members**
+2. Click **Invite Member**
+3. Enter the email address or username
+4. Assign a role
+5. Click **Send Invitation**
+
+### Changing a Member’s Role
+
+1. Go to **Your Organization → Members**
+2. Find the member whose role you want to change
+3. Click the role dropdown next to their name
+4. Select the new role
+
+<Warning>
+  Only Owners and Admins can change member roles. Owners are the only ones who can assign or remove the Admin role.
+</Warning>
+
+### Removing a Member
+
+1. Go to **Your Organization → Members**
+2. Find the member you want to remove
+3. Click the **⋯** menu next to their name
+4. Select **Remove from Organization**
+
+## Custom Roles
+
+If the default roles don’t fit your needs, you can create custom roles with specific permission sets:
+
+1. Navigate to **Settings → Roles**
+2. Click **Create Custom Role**
+3. Name the role and configure permissions
+4. Save and assign to members as needed
+
+## Permissions Reference
+
+| Permission | Owner | Admin | Editor | Contributor | Viewer |
+| --- | --- | --- | --- | --- | --- |
+| View content | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Create content | ✓ | ✓ | ✓ | ✓ | ✗ |
+| Publish content | ✓ | ✓ | ✓ | ✗ | ✗ |
+| Manage members | ✓ | ✓ | ✗ | ✗ | ✗ |
+| Edit org settings | ✓ | ✓ | ✗ | ✗ | ✗ |
+| Delete org | ✓ | ✗ | ✗ | ✗ | ✗ |
+
+## Next Steps
+
+<CardGroup cols={2}>
+  <Card title="Architecture Strategy" icon="sitemap" href="/organizational-profiles/architecture-strategy">
+    Plan how your organization is structured on the platform.
+  </Card>
+
+  <Card title="Privacy & Visibility" icon="eye" href="/platform-fundamentals/privacy-and-visibility">
+    Control what’s visible to people outside your organization.
+  </Card>
+</CardGroup>
