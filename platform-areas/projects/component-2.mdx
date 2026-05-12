@@ -1,88 +1,82 @@
 ---
-title: "Component #2: Files & Documents"
+title: "Project Task Management"
 description: "Manage your project's shared file library"
 icon: "folder"
 ---
 
-The project file library is a shared workspace for all project documents, assets, and resources.
+Once a project is created, you can begin posting about the project or creating calendar events in the “Feed” tab, facilitating taggable conversations in the “Discussion” tab, and creating and assigning tasks from the “Management” tab. 
 
-## Overview
+<Callout icon="photo-film">
+  Show ‘Management’ tab and  ‘\+Add task’ in this screenshot
+</Callout>
 
-Every project has a built-in file library where members can store and access shared documents. Files in the project library are accessible to all project members according to the project’s visibility settings.
+To create and assign a task:
 
-## Uploading Files
+- Go to the "Management" tab and click "Add Task"
+- Select the appropriate template collection to find the task, such as  “General Task Library”
+- With the appropriate task template, such as “General Task”
+- Enter task name, description, and other fields as prompted and click “Submit”
 
-### Single File Upload
+This will bring you to another screen where you can add more information about the task. 
 
-1. Navigate to **Project → Files**
-2. Click **Upload File**
-3. Select a file from your device
-4. Add a title, description, and tags
-5. Click **Upload**
+- Select Manager: This selects the organization that is governing the task
+- Select Collaborators Group: You will choose which Group of collaborators to select from in order to populate the “Assignee” field. Your Organization will have set up various Groups - whether for internal coordination, or to coordinate with your collaborators. You can select the appropriate group (who is sponsoring the project) and where you have the appropriate team or community members organized in order to assign them tasks. ( _\*Note- if you do not have the appropriate group set up with the collaborators added in order to assign tasks, please write to [<u>support@openfuturecoalition.org</u>](mailto:support@openfuturecoalition.org) and we can help you.)_
 
-### Bulk Upload
+<Info>
+  **Single vs Bulk Tasks**
 
-1. In the **Files** tab, drag and drop multiple files into the upload area
-2. Files will upload simultaneously
-3. Add details to each file after upload
+  Single Assign (Default): One task card is assigned to one or multiple people. If anyone hits "submit," the task is considered complete for everyone. 
 
-### Supported File Types
+  Bulk Assign: This clones the task into individual copies for every selected person. Each assignee works on and completes their own version independently (ideal for classroom settings, where each assignee must complete their own task).
+</Info>
 
-See [File Management](/platform-fundamentals/file-management) for a full list of supported file types and size limits.
+- Add additional information about your tasks, including assignees, priority level, start and end date, and attachments.
 
-## Organizing Files
+Once you are done, click “Submit”
 
-### Creating Folders
+The task will now be listed on the Project’s “Management” tab. Refresh the page if you don’t see it. You can click to open it and view it.
 
-1. Click **\+ New Folder**
-2. Name the folder
-3. Drag files into it, or upload directly to the folder
+To further edit and assign each task to collaborators, click on the task in the list column, Gantt chart, or swimlane view. Edit the fields and click submit once you are done. 
 
-### Recommended Folder Structure
+### Importing Tasks
 
-For most projects, a simple structure works well:
+To bulk import tasks
 
-```text
-Project Files/
-├── Background & Research/
-├── Working Documents/
-├── Meetings & Notes/
-├── Deliverables/
-└── Archive/
-```
+- Select “Import Tasks” and either copy and paste tasks from an existing spreadsheet organized with the same headers ( Task Name, Description, Start Date, End Date) into line 2 of the spreadsheet in the platform or manually enter data into the fields in column 2.
+- Click ”create tasks” 
+- To further edit and assign each task to collaborators, click on the task in the list column, Gantt chart, or swimlane view. Edit the fields and click submit once you are done. 
+- To add additional tasks in a sequenced order to this list column- click “add below” or “add above” and add a new task with instructions above
 
-## Version Control
+\[Screenshot that shows what imported tasks look like\]
 
-The platform automatically maintains version history for uploaded files.
+## Visual Management Tools
 
-### Viewing File History
+The Gantt Chart and Swimlanes are both tools to visualize and manage tasks. Once tasks are added, they will be auto-populated to these views. Click on a task within either view to view task details or make edits. 
 
-1. Click on a file to open its detail view
-2. Click **Version History**
-3. Browse previous versions
+\
 
-### Restoring a Previous Version
+<Columns cols={2}>
+  <Column>
+    ### Gantt Chart
 
-1. In **Version History**, find the version you want to restore
-2. Click **Restore This Version**
-3. The previous version becomes the current version (the current version is saved to history)
+    Ideal for visualizing the sequence and duration of tasks. Users can view their work by day, week, or month.
 
-## File Permissions
+    You can quickly click and drag task bars to update start and end dates.
 
-By default, all project members can view all files. You can restrict specific files:
+    \[Screenshot that shows what an active gantt looks like, consider a GIF to show click and drag functions\]
+  </Column>
+  <Column>
+    ### Swimlanes
 
-1. Open the file detail view
-2. Click **Settings → Permissions**
-3. Choose who can view or download the file
+    Visualizes task cards in two vertical columns based on status.
 
-## Sharing Files Outside the Project
+    You can quickly change a task's status by dragging and dropping it from one column into another.
 
-To share a file with someone who isn’t a project member:
+    _The default swimlane statuses are selected and managed under project settings. (link)_
 
-1. Open the file
-2. Click **Share**
-3. Copy the share link
-4. Set the link expiration (optional)
+    \[Screenshot that shows what an active swimlane looks like, consider a GIF to show click and drag functions\]
+  </Column>
+</Columns>
 
 <Warning>
   Share links give access to the file to anyone with the link. Use expiring links for sensitive documents.

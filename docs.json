@@ -52,11 +52,10 @@
           {
             "group": "Projects",
             "pages": [
-              "platform-areas/projects/about",
               "platform-areas/projects/quick-start",
+              "platform-areas/projects/about",
               "platform-areas/projects/component-1",
               "platform-areas/projects/component-2",
-              "platform-areas/projects/component-3",
               "platform-areas/projects/faq"
             ]
           },
