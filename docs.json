@@ -41,11 +41,11 @@
           {
             "group": "Impact Dashboards",
             "pages": [
-              "platform-areas/impact-dashboards/about",
               "platform-areas/impact-dashboards/quick-start",
+              "platform-areas/impact-dashboards/about",
               "platform-areas/impact-dashboards/component-1",
-              "platform-areas/impact-dashboards/component-2",
-              "platform-areas/impact-dashboards/component-3",
+              "platform-areas/impact-dashboards/data",
+              "platform-areas/impact-dashboards/privacy",
               "platform-areas/impact-dashboards/faq"
             ]
           },
