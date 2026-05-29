@@ -9,76 +9,75 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "anchors": [
       {
-        "tab": "Guides",
-        "groups": [
+        "anchor": "Platform Area Guides",
+        "tabs": [
           {
-            "group": "Getting Started",
-            "pages": [
-              "getting-started/profile-setup",
-              "getting-started/interacting-with-projects",
-              "getting-started/interacting-with-groups",
-              "getting-started/connections"
-            ]
-          },
-          {
-            "group": "Organizational Profiles",
-            "pages": [
-              "organizational-profiles/profile-setup",
-              "organizational-profiles/roles-and-permissions",
-              "organizational-profiles/architecture-strategy"
-            ]
-          },
-          {
-            "group": "Platform Fundamentals",
-            "pages": [
-              "platform-fundamentals/navigating-the-platform",
-              "platform-fundamentals/privacy-and-visibility",
-              "platform-fundamentals/file-management"
-            ]
-          },
-          {
-            "group": "Impact Dashboards",
-            "pages": [
-              "platform-areas/impact-dashboards/quick-start",
-              "platform-areas/impact-dashboards/about",
-              "platform-areas/impact-dashboards/component-1",
-              "platform-areas/impact-dashboards/data",
-              "platform-areas/impact-dashboards/privacy",
-              "platform-areas/impact-dashboards/faq"
-            ]
-          },
-          {
-            "group": "Projects",
-            "pages": [
-              "platform-areas/projects/quick-start",
-              "platform-areas/projects/about",
-              "platform-areas/projects/roles",
-              "platform-areas/projects/management",
-              "platform-areas/projects/faq"
-            ]
-          },
-          {
-            "group": "Resource Publishing",
-            "pages": [
-              "platform-areas/resource-publishing/about",
-              "platform-areas/resource-publishing/quick-start",
-              "platform-areas/resource-publishing/component-1",
-              "platform-areas/resource-publishing/component-2",
-              "platform-areas/resource-publishing/component-3",
-              "platform-areas/resource-publishing/faq"
-            ]
-          },
-          {
-            "group": "Groups",
-            "pages": [
-              "platform-areas/groups/about",
-              "platform-areas/groups/quick-start",
-              "platform-areas/groups/component-1",
-              "platform-areas/groups/component-2",
-              "platform-areas/groups/component-3",
-              "platform-areas/groups/faq"
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "getting-started/profile-setup",
+                  "getting-started/interacting-with-projects",
+                  "getting-started/interacting-with-groups",
+                  "getting-started/connections"
+                ]
+              },
+              {
+                "group": "Organizational Profiles",
+                "pages": [
+                  "organizational-profiles/profile-setup",
+                  "organizational-profiles/roles-and-permissions",
+                  "organizational-profiles/architecture-strategy"
+                ]
+              },
+              {
+                "group": "Platform Fundamentals",
+                "pages": [
+                  "platform-fundamentals/navigating-the-platform",
+                  "platform-fundamentals/privacy-and-visibility",
+                  "platform-fundamentals/file-management"
+                ]
+              },
+              {
+                "group": "Platform Area Guides",
+                "pages": [
+                  "platform-areas/groups/about",
+                  "platform-areas/projects/quick-start",
+                  "platform-areas/impact-dashboards/resource-publishing",
+                  "platform-areas/impact-dashboards/quick-start",
+                  "platform-areas/impact-dashboards/about",
+                  "platform-areas/impact-dashboards/component-1",
+                  "platform-areas/impact-dashboards/data",
+                  "platform-areas/impact-dashboards/privacy",
+                  "platform-areas/impact-dashboards/faq"
+                ]
+              },
+              {
+                "group": "Resource Publishing",
+                "hidden": true,
+                "pages": [
+                  "platform-areas/resource-publishing/about",
+                  "platform-areas/resource-publishing/quick-start",
+                  "platform-areas/resource-publishing/component-1",
+                  "platform-areas/resource-publishing/component-2",
+                  "platform-areas/resource-publishing/component-3",
+                  "platform-areas/resource-publishing/faq"
+                ]
+              },
+              {
+                "group": "Groups",
+                "hidden": true,
+                "pages": [
+                  "platform-areas/groups/quick-start",
+                  "platform-areas/groups/component-1",
+                  "platform-areas/groups/component-2",
+                  "platform-areas/groups/component-3",
+                  "platform-areas/groups/faq"
+                ]
+              }
             ]
           }
         ]
