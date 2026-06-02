@@ -10,15 +10,16 @@ icon: "chart-mixed"
 
 <Columns cols={3}>
   <Column>
-    <Card title="Group Set Up" color="#2D2E5B" icon="arrow-alt-down" horizontal href="https://openfuturecoalition-eb9ec23e.mintlify.app/platform-areas/groups/about#setting-up-a-group-quick-start">
+    <Card title="Dashboard Set Up" color="#2D2E5B" icon="arrow-alt-down" horizontal>
     </Card>
   </Column>
   <Column>
-    <Card title="Using Group Tabs" color="#2D2E5B" icon="arrow-alt-down" horizontal href="https://openfuturecoalition-eb9ec23e.mintlify.app/platform-areas/groups/about#group-tabs">
+    <Card title="Modules" color="#2D2E5B" icon="arrow-alt-down" horizontal href="https://openfuturecoalition-eb9ec23e.mintlify.app/platform-areas/groups/about#group-tabs">
+      Creating layouts & connecting to data
     </Card>
   </Column>
   <Column>
-    <Card title="Roles & Permissions " color="#2D2E5B" icon="arrow-alt-down" horizontal href="https://openfuturecoalition-eb9ec23e.mintlify.app/platform-areas/groups/about#roles-&-permissions">
+    <Card title="Publishing and Sharing" color="#2D2E5B" icon="arrow-alt-down" horizontal>
     </Card>
   </Column>
 </Columns>
@@ -73,88 +74,164 @@ Key Features include: 
   To Preview or Edit your Page:
 
   - Once a page is saved, it will appear in the list when Pages is selected from the Menu. 
-  - Click the gear icon to the right of the page title and name to edit or preview. 
+  - Click the gear icon to the right of the page title and name to edit or preview.
 </Info>
 
 \[Embed short video or GIF walk through of the drag-and-drop dashboard builder\]
 
 ---
 
-# Modules 
+# Modules
 
 The Dashboard Publishing Tool is built around **modules**, which are individual content blocks that users can add and configure. Each module serves a specific purpose, whether it’s displaying data, linking resources, or adding visuals.
 
-### **Creating a Layout** 
+## **Creating a Layout**
 
 <Columns cols={2}>
   <Column>
-    Formatting Options
+    **Formatting Options**
 
     To ensure your page is responsive and nicely spaced, we recommend dragging in a new container (with single or multiple rows) before you add each row of content. Available formats include single-column, two-column, three-column, and 3/7 split. 
   </Column>
   <Column>
-    Adding modules
+    **Adding modules**
 
     Once you’ve added a row, simply drag a module from the left-hand panel into the canvas. It will then walk you through upload or configuration options with a popup window. 
   </Column>
 </Columns>
 
-**Types of Modules**
-
-- **\[attachment icon\] Attachment**: Upload or embed files, including videos from YouTube/Vimeo.
-- **\[icon\] Image Carousel**: Display multiple images from uploaded or existing files.
-- **\[icon\]Measurable Results**: Integrate data from measurable results reporting forms.
-- **\[icon\] Card**: Create structured information cards with titles, descriptions, and preview images.
-- **\[icon\] Chart**: Visualize data through various chart types (e.g., bar, pie, scatter, radar).
-
-## Component & Module Breakdown
-
-The Dashboard Publishing Tool is built around **modules**, which are individual content blocks that serve specific purposes for displaying data or visuals.
-
-## Content Modules
-
-- **Attachment:** Use this to upload files, documents, or embed external links, including YouTube and Vimeo videos.
-- **Image Carousel:** Showcase multiple images in a scrollable, interactive format.
-- **Card:** Create structured informational blocks featuring a title, description, and preview image.
-
-## Data Modules
-
-- **Measurable Results:** Showcase quantitative results by connecting to a Measurable Results Reporting Form for auto-syncing live data, or enter data manually.
-- **Charts:** Visualize data using various types:
-  - **Area/Line Charts:** Best for trends over time.
-  - **Bar Charts:** Best for comparing values across categories.
-  - **Pie/Donut Charts:** Best for displaying proportions.
-  - **Radar/Scatter Charts:** Best for multi-variable comparisons and correlation analysis.
-
 ## Connecting Modules to Data
 
-Modules like Charts and Measurable Results require a data source to function. You can connect data in three primary ways:
+Modules like Charts and Measurable Results require a data source to function.  You can connect data in the following ways:
 
-1. **Project Data:** Select **Fetch from Project List** to source data from one or more existing projects on the platform. You can then select specific forms and "data keys" (fields) to display.
-2. **Spreadsheets:** Select **Fetch from Spreadsheet List** to use spreadsheets already created or uploaded to the platform.
-3. **Historical/Manual Data:** Use **Manual Spreadsheet** to type data directly into the editor, or **Manual Data (Comma-separated)** to paste CSV data.
-4. **Remote API:** For advanced integrations, select **Fetch from Remote API**. Users should contact [**support@openfuturecoalition.org**](mailto:support@openfuturecoalition.org) for assistance with API setup.
+- **Live Data Sources**: Pull real-time data from API integrations, project field data, or web documents stored in the system.
+- **Historical Data Sources**: Upload CSV files, paste spreadsheet data, or manually enter historical data.
 
-# Privacy & Publishing
+| Module Type | Use for | How to Use |
+| :-- | :-- | :-- |
+| Attachment | Use this module to attach files, documents, or external links, including YouTube/Vimeo videos. | Upload new files, attach existing files, or embed links. This includes Youtube and Vimeo links. |
+| Image Carousel | Use this module to showcase multiple images in a scrollable format. | Upload new images or select from previously uploaded ones. |
+| Card Module | Use this module to highlight key information with a title, description, and image preview. | Enter text and upload an image to format the card. |
+| Measurable Results | Use this module to showcase quantitative results from data captured through the measurable results reporting form or manually add results for completed projects. | Select ‘Auto update with live data’ to connect with the Measurable Results Reporting Form, which will automatically sync with project-related data; or manually enter data into the Measurable Results fields. |
+| Charts | Use this module to visually represent data using various chart types. **Area Chart**: Best for showing trends over time. **Line Chart**: Best for continuous data comparison. Shows change over time. **Bar Chart**: Best for comparing values across categories. **Funnel Chart**: Best for illustrating a process with stages. **Pie/Donut Chart**: Best for displaying proportions, shows how a whole is divided into parts. **Box Chart**: Best for statistical distribution. **Range Chart**: Best for displaying high/low values. **Bullet Chart**: Best for performance measurement. **Scatter/Bubble Chart**: Best for correlation analysis. **Radar Chart**: Best for multi-variable comparison. **Polar Line Chart**: Best for cyclical data. | Configuring Titles, Axis Labels, and color scheme using the editor. Connecting to Live or Historical Data: Live data sources include project data, web doc (spreadsheets), and APIs. Historical data sources include CSV and manual spreadsheet entry. For detailed instructions, see “Connecting modules with data” below. |
+
+### Connect to Project Data
+
+Charts can connect to existing project data in the platform. You can source data from multiple projects. 
+
+<Steps>
+  <Step title="Choose  ‘Fetch from Project List’ from the Data Source Method Menu and select an existing project.">
+    \[screenshot of where to find this option\]
+  </Step>
+  <Step title="Select from the templates the form you would like to connect.">
+  </Step>
+  <Step title="Select specific fields you would like to appear in your chart, through the field titled “data keys.” ">
+  </Step>
+</Steps>
+
+### Connect to Spreadsheet Data
+
+This option works for spreadsheets that you have created using the platform, in your files or under the attachment modal. 
+
+Choose ‘Fetch from Spreadsheet List’ from the Data Source Method Menu and choose from previously uploaded Spreadsheets.
+
+**To add data to a spreadsheet manually:** Select ‘Manual Spreadsheet’ from the Data Source Method Menu and Enter data directly into the spreadsheet.
+
+**To paste from CSV:** Select ‘Manual Data (Comma-separated)’ from the Data Source Method and paste in data.
+
+\[Add screenshots\]
+
+### Connect to API
+
+Choose ‘Fetch from Remote API’ from the Data Source Method Menu and enter the Remote URL. Please reach out to us directly at [<u>support@openfuturecoalition.org</u>](mailto:support@openfuturecoalition.org) if you are interested in exploring this option, and we can help you get it set up.
+
+The privacy settings control where you are able to share the dashboard and who can see it. To add privacy settings to a Dashboard.
+
+<Steps>
+  <Step title="Click on the gear icon at the bottom of the edit menu, this will open the privacy settings.">
+  </Step>
+  <Step title="Under “Select Privacy”, select an option, and click “Add”.">
+    To remove a privacy setting, click on the trash icon next to the list item you’d like to delete.
+  </Step>
+  <Step title="Click “Update Page” to save changes.">
+  </Step>
+</Steps>
+
+<Callout icon="lock-alt">
+  **Privacy Types for Dashboards**
+
+  -  **Public** – Allows the dashboard to be shared a link to view the dashboard, even if they are not logged into the platform
+  - **Private** – Prevents the dashboard from being shared publicly. Visibility is restricted only to you or your organization and the projects you share it to. 
+  - **Connections** – The content is visible to all of your direct connections
+  - **Custom** – This allows for specific sharing rules, such as sharing with:
+    - All groups
+    - Specific groups
+    - Specific individuals
+    - With “allow” or “not allow” rules
+</Callout>
+
+# Publishing and Sharing
 
 ## Dashboard Privacy Settings
 
-Privacy settings control who can see the dashboard and where it can be shared. To edit these, click the **gear icon** at the bottom of the edit menu.
+The privacy settings control where you are able to share the dashboard and who can see it. To add privacy settings to a Dashboard.
 
-- **Public:** Anyone with the link can view the dashboard, even without a platform login.
-- **Private:** Visibility is restricted to you, your organization, and the projects it is shared to.
-- **Connections:** Visible to all your direct connections.
-- **Custom:** Allows for specific sharing rules with certain groups or individuals.
+<Steps>
+  <Step title="Click on the gear icon at the bottom of the edit menu, this will open the privacy settings.">
+  </Step>
+  <Step title="Under “Select Privacy”, select an option, and click “Add”.">
+    To remove a privacy setting, click on the trash icon next to the list item you’d like to delete.
+  </Step>
+  <Step title="Click “Update Page” to save changes.">
+  </Step>
+</Steps>
 
-## Publishing to a Project
+<Callout icon="lock-alt">
+  **Privacy Types for Dashboards**
 
-To display a dashboard within a specific project's "Dashboard" tab:
+  -  **Public** – Allows the dashboard to be shared a link to view the dashboard, even if they are not logged into the platform
+  - **Private** – Prevents the dashboard from being shared publicly. Visibility is restricted only to you or your organization and the projects you share it to. 
+  - **Connections** – The content is visible to all of your direct connections
+  - **Custom** – This allows for specific sharing rules, such as sharing with:
+    - All groups
+    - Specific groups
+    - Specific individuals
+    - With “allow” or “not allow” rules
+</Callout>
 
-1. Navigate to the project and go to its **Dashboard** tab.
-2. Select your created page from the dropdown menu.
-3. Click **Edit selected page** (this opens a new tab), then click **Update Page** to finalize the connection.
+## Publish a Dashboard to a Project
 
-# Roles & Permissions
+To display a dashboard within a specific project's "Dashboard" tab.
 
-- **Creators:** Only the individual or organization that created the dashboard can access the drag-and-drop editor to modify the layout or data sources.
-- **Support:** For technical assistance or API setup, contact [**support@openfuturecoalition.org**](mailto:support@openfuturecoalition.org).
+<Steps>
+  <Step title="Go to the project you want to connect dashboard and navigate to the “Dashboard” tab.">
+  </Step>
+  <Step title="Select the page you created in dropdown (next to edit selected page).">
+  </Step>
+  <Step title="Click “edit selected page” which will open the dashboard in a new tab and click “Update Page”.">
+  </Step>
+  <Step title="Return to the dashboard tab to view the updated dashboard page. You may need to refresh the page.">
+  </Step>
+</Steps>
+
+## **Share a Dashboard URL**
+
+If the dashboard is set to public, you can share the page through a URL.
+
+To set the dashboard to public:
+
+<Steps>
+  <Step title="Navigate to edit the dashboard ">
+    To do this, select your icon in the top right, then “pages”, then select “Edit” under the gear next to the dashboard you want to work withNavigate to the edit the dashboard (To do this, select your icon in the top right, then “pages”, then select “Edit” under the gear next to the dashboard you want to work with)
+  </Step>
+  <Step title="Click on the gear icon at the bottom of the edit menu, this will open the privacy settings.">
+  </Step>
+  <Step title="Under “Select Privacy”, click “Public”, then “Add”">
+  </Step>
+  <Step title="Click “Update Page”">
+  </Step>
+</Steps>
+
+To share the URL:
+
+**! TO DO**
