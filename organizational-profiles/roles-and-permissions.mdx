@@ -2,79 +2,55 @@
 title: "Roles & Permissions"
 description: "Manage who can access and do what within your organization"
 icon: "shield"
-hidden: true
 ---
 
-Roles and permissions determine what members of your organization can see and do on the platform. Proper role management keeps your organization secure while enabling effective collaboration.
+Roles and permissions determine what members of your organization can see and do on the platform. 
 
-## Organization Roles
+# Members 
 
-Every member of your organization is assigned a role. Here’s an overview of the default roles:
+Members are users of the Open Impact platform. They can interact with platform areas to support their goals and connect with other members through projects, groups, resources, and more. 
 
-| Role | Description |
-| --- | --- |
-| **Owner** | Full access to all settings, content, and member management. Can transfer ownership. |
-| **Admin** | Can manage members, settings, projects, and content. Cannot transfer ownership. |
-| **Editor** | Can create and edit content, publish resources, and manage projects. |
-| **Contributor** | Can create content and contribute to projects but cannot publish without approval. |
-| **Viewer** | Read-only access to organizational content. |
+If you would like to invite members to join a project or group, we can create an invitation link that you can share to invite people to sign up for an account. It will send a request from them to join your project or group. When they create their account and sign in, the organization will get a notification to accept their request to join. Once their request is accepted, it will connect their personal profile with the organization profile and the project.
 
-## Managing Roles
+Once a profile is connected to the org account, you can add them to projects by adding them as collaborators. To add collaborators to your project group, go to ‘Edit Project’’ or ‘edit group’; the last tab called ‘Preferences’ contains the Collaborators field. 
 
-### Adding Members
+If someone is not showing up in the Collaborators list but has a profile on Open Impact, they can use the group invitation link or the Org profile can request to connect with the member. To send a request to connect: go to the Community page on your main menu and find a member you would like to add from the People tab, open their Member Profile, and click “Connect” in their banner. This will send an invitation to the member (in their Notifications tab), which they will need to “Accept” in order to be an Organizational connection. Then, you can add them as Collaborators to Projects or Groups. 
 
-1. Navigate to **Your Organization → Members**
-2. Click **Invite Member**
-3. Enter the email address or username
-4. Assign a role
-5. Click **Send Invitation**
+Similarly, someone with an account on Open Impact can request to connect with the Organization.  Follow the same process as above to find the organization in Organization tab of the “Community”.
 
-### Changing a Member’s Role
+# Collaborators
 
-1. Go to **Your Organization → Members**
-2. Find the member whose role you want to change
-3. Click the role dropdown next to their name
-4. Select the new role
+Collaborators are members of a project or group who participate in the workspace and can be assigned tasks.
 
-<Warning>
-  Only Owners and Admins can change member roles. Owners are the only ones who can assign or remove the Admin role.
-</Warning>
+## Adding Collaborators
 
-### Removing a Member
+<Steps>
+  <Step title='Before a user can be added as a collaborator, they must be a "Connection" of the group or project creator. '>
+    You can invite them via a custom link or by finding their existing profile in the "Community" tab and clicking Connect.
+  </Step>
+  <Step title="Once they are connected to the organizational profile, go to the Edit Project or Edit Group (via the gear icon in the page’s banner)">
+  </Step>
+  <Step title="Navigate to the last tab, titled Preferences, and select the individuals from the Collaborators field">
+  </Step>
+</Steps>
 
-1. Go to **Your Organization → Members**
-2. Find the member you want to remove
-3. Click the **⋯** menu next to their name
-4. Select **Remove from Organization**
+# Managers
 
-## Custom Roles
+Managers have operational controls over a specific group or project. Their primary capabilities include: 
 
-If the default roles don’t fit your needs, you can create custom roles with specific permission sets:
+- Task Management: Creating and assigning tasks to collaborators.
+- Communications: Managing discussions.
+- Coordination: Adding and managing calendar invites for meetings and milestones.
 
-1. Navigate to **Settings → Roles**
-2. Click **Create Custom Role**
-3. Name the role and configure permissions
-4. Save and assign to members as needed
+## Adding Managers
 
-## Permissions Reference
+Making someone a manager is a two-step process that begins at the organizational level.
 
-| Permission | Owner | Admin | Editor | Contributor | Viewer |
-| --- | --- | --- | --- | --- | --- |
-| View content | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Create content | ✓ | ✓ | ✓ | ✓ | ✗ |
-| Publish content | ✓ | ✓ | ✓ | ✗ | ✗ |
-| Manage members | ✓ | ✓ | ✗ | ✗ | ✗ |
-| Edit org settings | ✓ | ✓ | ✗ | ✗ | ✗ |
-| Delete org | ✓ | ✗ | ✗ | ✗ | ✗ |
-
-## Next Steps
-
-<CardGroup cols={2}>
-  <Card title="Architecture Strategy" icon="sitemap" href="/organizational-profiles/architecture-strategy">
-    Plan how your organization is structured on the platform.
-  </Card>
-
-  <Card title="Privacy & Visibility" icon="eye" href="/platform-fundamentals/privacy-and-visibility">
-    Control what’s visible to people outside your organization.
-  </Card>
-</CardGroup>
+<Steps>
+  <Step title="The user must be added to the Organization Manager list. ">
+    To add someone to this list, access the drop down under the organization’s icon and select “Organizational Managers”. Once they are added there, the individual is eligible to be delegated as a project-level manager.
+  </Step>
+  <Step title="Project Level Assignment">
+     When creating or managing a project, select individuals you wish to delegate the manager role to in the Manager drop down. 
+  </Step>
+</Steps>

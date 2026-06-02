@@ -19,27 +19,9 @@
               {
                 "group": "Getting Started",
                 "pages": [
+                  "getting-started/welcome",
                   "getting-started/profile-setup",
-                  "getting-started/interacting-with-projects",
-                  "getting-started/interacting-with-groups",
-                  "getting-started/connections"
-                ]
-              },
-              {
-                "group": "Organizational Profiles",
-                "pages": [
-                  "organizational-profiles/profile-setup",
-                  "organizational-profiles/roles-and-permissions",
-                  "organizational-profiles/architecture-strategy"
-                ]
-              },
-              {
-                "group": "Platform Fundamentals",
-                "pages": [
-                  "platform-fundamentals/navigating-the-platform",
-                  "platform-fundamentals/privacy-and-visibility",
-                  "platform-fundamentals/file-management",
-                  "platform-fundamentals/resource-library"
+                  "getting-started/interacting-with-projects"
                 ]
               },
               {
@@ -48,36 +30,32 @@
                   "platform-areas/groups/about",
                   "platform-areas/projects",
                   "platform-areas/impact-dashboards/resource-publishing",
-                  "platform-areas/impact-dashboards/dashboards",
-                  "platform-areas/impact-dashboards/quick-start",
-                  "platform-areas/impact-dashboards/about",
-                  "platform-areas/impact-dashboards/component-1",
-                  "platform-areas/impact-dashboards/data",
-                  "platform-areas/impact-dashboards/privacy",
-                  "platform-areas/impact-dashboards/faq"
+                  "platform-areas/impact-dashboards/dashboards"
                 ]
               },
               {
-                "group": "Resource Publishing",
-                "hidden": true,
+                "group": "Platform Fundamentals",
                 "pages": [
-                  "platform-areas/resource-publishing/about",
-                  "platform-areas/resource-publishing/quick-start",
-                  "platform-areas/resource-publishing/component-1",
-                  "platform-areas/resource-publishing/component-2",
-                  "platform-areas/resource-publishing/component-3",
-                  "platform-areas/resource-publishing/faq"
+                  "platform-fundamentals/navigating-the-platform",
+                  "platform-fundamentals/feed",
+                  "platform-fundamentals/file-management",
+                  "platform-fundamentals/discussions",
+                  "platform-fundamentals/resource-library",
+                  "platform-fundamentals/calendar"
                 ]
               },
               {
-                "group": "Groups",
-                "hidden": true,
+                "group": "TBD Title",
                 "pages": [
-                  "platform-areas/groups/quick-start",
-                  "platform-areas/groups/component-1",
-                  "platform-areas/groups/component-2",
-                  "platform-areas/groups/component-3",
-                  "platform-areas/groups/faq"
+                  "platform-fundamentals/privacy-and-visibility",
+                  "organizational-profiles/roles-and-permissions"
+                ]
+              },
+              {
+                "group": "Support",
+                "pages": [
+                  "FAQ",
+                  "contact"
                 ]
               }
             ]
