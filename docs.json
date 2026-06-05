@@ -11,7 +11,7 @@
   "navigation": {
     "anchors": [
       {
-        "anchor": "Platform Area Guides",
+        "anchor": "",
         "tabs": [
           {
             "tab": "Guides",
@@ -60,6 +60,9 @@
             ]
           }
         ]
+      },
+      {
+        "anchor": "Untitled Anchor"
       }
     ]
   },
