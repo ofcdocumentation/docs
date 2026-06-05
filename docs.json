@@ -3,9 +3,9 @@
   "theme": "sequoia",
   "name": "Open Impact Platform Docs",
   "colors": {
-    "primary": "#a215a3",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#3E407B",
+    "light": "#9B9CC9",
+    "dark": "#2D2E5B"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -97,5 +97,11 @@
   },
   "fonts": {
     "family": "Montserrat"
+  },
+  "background": {
+    "color": {
+      "light": "#F7F8FA",
+      "dark": "#181A1D"
+    }
   }
 }
