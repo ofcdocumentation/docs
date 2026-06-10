@@ -18,7 +18,8 @@
             "pages": [
               "getting-started/welcome",
               "getting-started/about-the-platform",
-              "getting-started/profile-setup"
+              "getting-started/profile-setup",
+              "getting-started/test-page"
             ]
           },
           {
