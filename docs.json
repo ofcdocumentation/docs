@@ -68,6 +68,10 @@
       {
         "label": "Support",
         "href": "mailto:support@openfuturecoalition.org"
+      },
+      {
+        "href": "https://www.openfuturecoalition.org/",
+        "label": "Open Future Coalition"
       }
     ],
     "primary": {
