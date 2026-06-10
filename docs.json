@@ -72,8 +72,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Open Impact",
+      "href": "https://impact.openfuturecoalition.org/"
     }
   },
   "contextual": {
