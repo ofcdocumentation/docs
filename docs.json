@@ -23,15 +23,6 @@
             ]
           },
           {
-            "group": "Platform Area Guides",
-            "pages": [
-              "platform-areas/groups/about",
-              "platform-areas/projects",
-              "platform-areas/impact-dashboards/resource-publishing",
-              "platform-areas/impact-dashboards/dashboards"
-            ]
-          },
-          {
             "group": "Platform Fundamentals",
             "pages": [
               "platform-fundamentals/navigating-the-platform",
@@ -40,6 +31,15 @@
               "platform-fundamentals/discussions",
               "platform-fundamentals/resource-library",
               "platform-fundamentals/calendar"
+            ]
+          },
+          {
+            "group": "Platform Area Guides",
+            "pages": [
+              "platform-areas/groups/about",
+              "platform-areas/projects",
+              "platform-areas/impact-dashboards/resource-publishing",
+              "platform-areas/impact-dashboards/dashboards"
             ]
           },
           {
