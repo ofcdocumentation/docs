@@ -19,13 +19,12 @@
               "getting-started/welcome",
               "getting-started/about-the-platform",
               "getting-started/profile-setup",
-              "getting-started/test-page"
+              "platform-fundamentals/navigating-the-platform"
             ]
           },
           {
             "group": "Platform Fundamentals",
             "pages": [
-              "platform-fundamentals/navigating-the-platform",
               "platform-fundamentals/feed",
               "platform-fundamentals/file-management",
               "platform-fundamentals/discussions",
@@ -34,19 +33,16 @@
             ]
           },
           {
-            "group": "Platform Area Guides",
+            "group": "Platform Management",
             "pages": [
-              "platform-areas/groups/about",
-              "platform-areas/projects",
-              "platform-areas/impact-dashboards/resource-publishing",
-              "platform-areas/impact-dashboards/dashboards"
-            ]
-          },
-          {
-            "group": "TBD Title",
-            "pages": [
-              "platform-fundamentals/privacy-and-visibility",
-              "organizational-profiles/roles-and-permissions"
+              "platform-areas/groups",
+              "platform-areas/project_management",
+              "platform-areas/resource-publishing",
+              "platform-areas/dashboard_publishing",
+              "platform-areas/form-publishing",
+              "platform-areas/event-publishing",
+              "organizational-profiles/roles-and-permissions",
+              "platform-fundamentals/privacy-and-visibility"
             ]
           },
           {
