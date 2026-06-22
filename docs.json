@@ -37,6 +37,7 @@
             "pages": [
               "platform-areas/groups",
               "platform-areas/project_management",
+              "platform-areas/creating-a-project",
               "platform-areas/resource-publishing",
               "platform-areas/dashboard_publishing",
               "platform-areas/form-publishing",
