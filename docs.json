@@ -27,7 +27,7 @@
             "group": "Platform Fundamentals",
             "pages": [
               "platform-fundamentals/feed",
-              "platform-fundamentals/file-management",
+              "platform-fundamentals/files",
               "platform-fundamentals/discussions",
               "platform-fundamentals/resource-library",
               "platform-fundamentals/calendar"
@@ -36,15 +36,15 @@
           {
             "group": "Platform Management",
             "pages": [
-              "platform-areas/groups",
-              "platform-areas/project_management",
-              "platform-areas/creating-a-project",
-              "platform-areas/resource-publishing",
-              "platform-areas/dashboard_publishing",
-              "platform-areas/form-publishing",
-              "platform-areas/event-publishing",
-              "organizational-profiles/roles-and-permissions",
-              "platform-fundamentals/privacy-and-visibility"
+              "platform-management/groups",
+              "platform-management/projects",
+              "platform-management/project-management",
+              "platform-management/resource-publishing",
+              "platform-management/dashboard_publishing",
+              "platform-management/form-publishing",
+              "platform-management/event-publishing",
+              "platform-management/roles-and-permissions",
+              "platform-management/privacy-and-visibility"
             ]
           },
           {
