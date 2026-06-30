@@ -19,8 +19,7 @@
               "getting-started/welcome",
               "getting-started/about-the-platform",
               "getting-started/profile-setup",
-              "platform-fundamentals/navigating-the-platform",
-              "getting-started/test-page"
+              "platform-fundamentals/navigating-the-platform"
             ]
           },
           {
@@ -30,7 +29,8 @@
               "platform-fundamentals/files",
               "platform-fundamentals/discussions",
               "platform-fundamentals/resource-library",
-              "platform-fundamentals/calendar"
+              "platform-fundamentals/calendar",
+              "platform-fundamentals/tasks"
             ]
           },
           {
@@ -44,7 +44,8 @@
               "platform-management/form-publishing",
               "platform-management/event-publishing",
               "platform-management/roles-and-permissions",
-              "platform-management/privacy-and-visibility"
+              "platform-management/privacy-and-visibility",
+              "platform-management/untitled-page"
             ]
           },
           {
