@@ -60,7 +60,7 @@
     ]
   },
   "logo": {
-    "light": "/images/logo_placeholder.png",
+    "light": "/images/logo_icon.svg",
     "dark": "/images/logo_icon.svg"
   },
   "navbar": {
