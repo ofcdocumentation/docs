@@ -54,13 +54,14 @@
               "contact"
             ]
           }
-        ]
+        ],
+        "icon": "book"
       }
     ]
   },
   "logo": {
     "light": "/images/logo_placeholder.png",
-    "dark": "/images/logo_placeholder.png"
+    "dark": "/images/logo_icon.svg"
   },
   "navbar": {
     "links": [
