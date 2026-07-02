@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "sequoia",
-  "name": "Open Impact Docs",
+  "name": "Open Impact Documentation",
   "colors": {
     "primary": "#3E407B",
     "light": "#9B9CC9",
