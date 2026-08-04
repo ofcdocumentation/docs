@@ -103,5 +103,8 @@
       "light": "#F7F8FA",
       "dark": "#181A1D"
     }
+  },
+  "appearance": {
+    "strict": false
   }
 }
